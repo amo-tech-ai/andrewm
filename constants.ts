@@ -13,7 +13,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Collections', path: '/collections' },
   { label: 'Biography', path: '/designers' },
   { label: 'Contact', path: '/contact' },
-  { label: 'Shop', path: '/shop' },
+  { label: 'Apply', path: '/submit' },
 ];
 
 export const MOCK_COLLECTIONS: Collection[] = [

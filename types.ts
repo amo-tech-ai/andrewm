@@ -14,16 +14,29 @@ export interface Designer {
   bio: string;
   imageUrl: string;
   specialty: string;
+  email?: string;
+  website?: string;
+  social?: string;
+  isNew?: boolean;
 }
 
 export interface WizardState {
   step: number;
+  // Step 1: Assets
   images: File[];
+  // Step 2: Collection
   collectionName: string;
   description: string;
+  // Step 3: Startup Profile
   designerName: string;
   email: string;
+  location: string;
+  bio: string;
+  website: string;
+  socialHandle: string;
+  // Step 4: Tags
   styleTags: string[];
+  // Step 5: Market
   priceRange: string;
 }
 
